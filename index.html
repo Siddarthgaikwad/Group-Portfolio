@@ -3,74 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Wastewater Management - Team Algo's</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <nav class="navbar">
         <div class="container">
-            <h1>Wastewater Management</h1>
-            <p>
-                Wastewater management involves processes and techniques used to collect, treat, and dispose of wastewater to minimize its environmental impact and protect public health.
-            </p>
+            <div class="logo">Team Algo's</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="about">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Wastewater Management</h1>
+                <p class="subtitle">Innovative solutions for sustainable water treatment and environmental protection</p>
+                <p class="description">
+                    Wastewater management involves processes and techniques used to collect, treat, and dispose of wastewater to minimize its environmental impact and protect public health.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="primary-btn">View Project</a>
+                    <a href="#team" class="secondary-btn">Meet the Team</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="wave-animation"></div>
+            </div>
         </div>
     </header>
 
-    <section class="container">
-        <div class="card">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Project:</strong> Wastewater Management</li>
-            </ul>
+    <main class="main-content">
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Project Overview</h2>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Wastewater Management System</h3>
+                        <p>Developing innovative solutions for efficient water treatment and sustainable management practices.</p>
+                        <div class="tech-stack">
+                            <span>C++</span>
+                            <span>Python</span>
+                            <span>JavaScript</span>
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="section">
+            <div class="container">
+                <h2 class="section-title">Team Algo's</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h3>Siddarth Gaikwad</h3>
+                            <p>Team Lead</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h3>Adarsh R D</h3>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h3>Surabhi</h3>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h3>Om Bhavikatti</h3>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Project Details</h2>
+                <div class="details-card">
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <h4>Team Name</h4>
+                            <p>Team Algo's</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Group No</h4>
+                            <p>5</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Instructor</h4>
+                            <p>KMMR Sir</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>University</h4>
+                            <p>KLE Technological University</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Domain</h4>
+                            <p>Google</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Connect With Us</h2>
+                <div class="social-links">
+                    <a href="https://github.com/your-github-username" target="_blank" class="social-btn">GitHub</a>
+                    <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" class="social-btn">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <blockquote class="inspiration-quote">
+                "The only way to do great work is to love what you do." – Steve Jobs
+            </blockquote>
         </div>
-
-        <div class="card">
-            <h2>Skills</h2>
-            <ul>
-                <li>C++, Python, JavaScript</li>
-                <li>Data Structures and Algorithms</li>
-                <li>Web Development (React.js, Node.js)</li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h2>Links</h2>
-            <ul>
-                <li><a href="https://github.com/your-github-username" target="_blank">GitHub</a></li>
-                <li><a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h2>Portfolio Topic</h2>
-            <dl>
-                <dt>Team Name</dt>
-                <dd>Team Algo's</dd>
-
-                <dt>Group No</dt>
-                <dd>5</dd>
-
-                <dt>Team Members</dt>
-                <dd>Siddarth Gaikwad</dd>
-                <dd>Adarsh R D</dd>
-                <dd>Surabhi </dd>
-                <dd>Om Bhavikatti</dd>
-                
-                <dt>Instructor</dt>
-                <dd>KMMR Sir</dd>
-
-                <dt>University</dt>
-                <dd>KLE Technological University</dd>
-
-                <dt>Portfolio Topic/Domain</dt>
-                <dd>Google</dd>
-            </dl>
-        </div>
-
-        <blockquote>
-            “The only way to do great work is to love what you do.” – Steve Jobs
-        </blockquote>
-    </section>
+    </footer>
 </body>
 </html>
