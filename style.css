@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #e3f2fd; /* Light blue background */
+    background-color: #f0f4f8; /* Soft light grayish-blue background */
     color: #333;
     line-height: 1.6;
     padding: 0 20px;
@@ -26,7 +26,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #0288d1; /* Blue background for header */
+    background-color: #4a90e2; /* Soft blue header */
     color: #fff;
     text-align: center;
     padding: 40px;
@@ -61,7 +61,7 @@ header p {
 
 h2 {
     font-size: 2rem;
-    color: #0288d1; /* Blue color for headings */
+    color: #2c3e50; /* Darker shade of blue-gray */
     margin-bottom: 15px;
 }
 
@@ -70,14 +70,14 @@ ul {
 }
 
 ul li {
-    background-color: #bbdefb; /* Soft light blue for list items */
+    background-color: #ecf0f1; /* Light gray background for list items */
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
 }
 
 ul li strong {
-    color: #0288d1; /* Blue color for important items */
+    color: #2980b9; /* Deep blue color for important items */
 }
 
 dl {
@@ -87,37 +87,37 @@ dl {
 
 dl dt {
     font-weight: bold;
-    color: #0288d1;
+    color: #2980b9; /* Matching deep blue for definitions */
     margin-bottom: 5px;
 }
 
 dl dd {
-    color: #555;
+    color: #7f8c8d; /* Subtle grayish text for descriptions */
     margin-bottom: 10px;
 }
 
 /* Blockquote Styling */
 blockquote {
-    background-color: #bbdefb; /* Soft light blue for quote background */
-    border-left: 5px solid #0288d1; /* Blue border for the blockquote */
+    background-color: #d5dbdb; /* Light gray background for blockquote */
+    border-left: 5px solid #2980b9; /* Blue left border */
     font-style: italic;
     padding: 15px 20px;
     margin-top: 30px;
     border-radius: 8px;
-    color: #555;
+    color: #2c3e50;
     font-size: 1.1rem;
 }
 
 /* Links Styling */
 a {
-    color: #0288d1; /* Aesthetic blue for links */
+    color: #2980b9; /* Deep blue for links */
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #01579b; /* Darker blue when hovered */
+    color: #1abc9c; /* Soft teal color when hovered */
     text-decoration: underline;
 }
 
