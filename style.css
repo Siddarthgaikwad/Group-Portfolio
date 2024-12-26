@@ -1,149 +1,47 @@
-/* Global Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Wastewater Treatment System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AI-Powered Wastewater Treatment System</h1>
+            <p>This project leverages artificial intelligence (AI) to optimize wastewater treatment processes, improving efficiency and reducing environmental impact.</p>
+        </div>
+    </header>
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f4f2f1; /* Soft light beige */
-    color: #333; /* Dark gray text for good readability */
-    line-height: 1.6;
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-}
+    <section class="container">
+        <div class="card">
+            <h2>Project Overview</h2>
+            <p>By using machine learning algorithms, we can predict the quality of wastewater and automate the necessary treatment processes to achieve the best water quality in the shortest time.</p>
+        </div>
 
-/* Container for centering content */
-.container {
-    max-width: 1100px;
-    width: 100%;
-    margin-top: 40px;
-}
+        <div class="card">
+            <h2>Key Features</h2>
+            <ul>
+                <li>AI-based wastewater quality prediction</li>
+                <li>Automated chemical dosing systems</li>
+                <li>Real-time monitoring and reporting</li>
+                <li>Predictive maintenance using AI algorithms</li>
+            </ul>
+        </div>
 
-/* Header Styles */
-header {
-    background-color: #5c4033; /* Rich brown */
-    color: #f7f5f2; /* Light beige */
-    text-align: center;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
+        <div class="card">
+            <h2>Technologies Used</h2>
+            <ul>
+                <li>Python (TensorFlow, Keras, Scikit-learn)</li>
+                <li>IoT sensors for data collection</li>
+                <li>AI and machine learning algorithms for prediction and automation</li>
+                <li>SQL for database management</li>
+                <li>Cloud computing for real-time data processing</li>
+            </ul>
+        </div>
 
-header h1 {
-    font-size: 2.8rem;
-    margin-bottom: 15px;
-}
-
-header p {
-    font-size: 1.1rem;
-    font-weight: 300;
-    margin-bottom: 0;
-}
-
-/* Card Styles */
-.card {
-    background-color: #fff;
-    padding: 25px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-10px); /* Slight lift on hover */
-}
-
-h2 {
-    font-size: 2rem;
-    color: #5c4033; /* Rich brown for headings */
-    margin-bottom: 15px;
-}
-
-ul, dl {
-    list-style: none;
-}
-
-ul li {
-    background-color: #e8e0da; /* Light beige for list items */
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-ul li strong {
-    color: #5c4033; /* Rich brown for emphasis */
-}
-
-dl dt {
-    font-weight: bold;
-    color: #333;
-}
-
-dl dd {
-    margin-left: 20px;
-    color: #666;
-}
-
-/* Blockquote Styles */
-blockquote {
-    background-color: #f7f5f2;
-    border-left: 5px solid #5c4033; /* Rich brown */
-    font-style: italic;
-    padding: 15px 20px;
-    margin-top: 30px;
-    border-radius: 8px;
-    color: #666;
-    font-size: 1.1rem;
-}
-
-/* Links */
-a {
-    color: #5c4033; /* Rich brown */
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #3d2a22; /* Darker brown for hover effect */
-    text-decoration: underline;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2.2rem;
-    }
-
-    header p {
-        font-size: 1rem;
-    }
-
-    .card {
-        padding: 20px;
-    }
-
-    h2 {
-        font-size: 1.7rem;
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 1.8rem;
-    }
-
-    .card {
-        padding: 15px;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-}
+        <div class="card">
+            <h2>Impact</h2>
+            <p>This system significantly reduces water pollution, increases energy 
