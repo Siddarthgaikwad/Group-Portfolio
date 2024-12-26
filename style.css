@@ -8,7 +8,7 @@
 /* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #f4f4f5;
     margin: 0;
     padding: 20px; /* Adding padding to the body to prevent sticking at the top */
     display: flex;
@@ -31,7 +31,7 @@ section {
 
 /* Header */
 header {
-    background-color: #4CAF50;
+    background-color: #4CAF30;
     color: white;
     padding: 2rem;
     border-radius: 8px;
@@ -49,7 +49,7 @@ header p {
 
 /* Section Titles */
 h2 {
-    color: #4CAF50;
+    color: #4CAF30;
     margin-bottom: 1rem;
 }
 
@@ -68,7 +68,7 @@ ul li {
 
 /* Links */
 a {
-    color: #4CAF50;
+    color: #4CAF30;
     text-decoration: none;
     font-weight: bold;
 }
@@ -93,7 +93,7 @@ dl dd {
 blockquote {
     font-style: italic;
     color: #555;
-    border-left: 4px solid #4CAF50;
+    border-left: 4px solid #4CAF30;
     padding-left: 1rem;
     margin-top: 2rem;
 }
