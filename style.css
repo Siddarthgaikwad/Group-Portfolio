@@ -1,15 +1,15 @@
-/* Reset default margin and padding */
+/* Reset margin and padding for all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global Styles */
+/* Apply global styles */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f4f4f5;
-    margin: 0;
+    color: #333;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -17,20 +17,19 @@ body {
     min-height: 100vh;
 }
 
-/* Header */
+/* Header styles */
 header {
     background-color: #4CAF50;
     color: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-bottom: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 header p {
@@ -38,42 +37,59 @@ header p {
     line-height: 1.5;
 }
 
-/* Main Section */
+/* Section container */
 section {
     background-color: white;
-    padding: 2rem;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
     max-width: 800px;
 }
 
-/* Section Headings */
+/* Section headings */
 section h2 {
-    color: #4CAF50;
-    margin-bottom: 1rem;
     font-size: 1.5rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
     border-bottom: 2px solid #e7f7e7;
-    padding-bottom: 0.5rem;
+    padding-bottom: 5px;
 }
 
 /* Lists */
 ul {
     list-style: none;
-    margin: 1rem 0;
+    margin: 10px 0;
     padding: 0;
 }
 
 ul li {
     background-color: #e7f7e7;
-    margin-bottom: 0.5rem;
-    padding: 0.75rem;
+    padding: 10px;
+    margin-bottom: 5px;
     border-radius: 5px;
-    font-size: 1rem;
 }
 
-ul li strong {
+/* Definition list */
+dl dt {
+    font-weight: bold;
+    margin-top: 10px;
     color: #333;
+}
+
+dl dd {
+    margin-left: 15px;
+    color: #555;
+}
+
+/* Blockquote */
+blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #4CAF50;
+    padding-left: 15px;
+    margin-top: 20px;
+    line-height: 1.5;
 }
 
 /* Links */
@@ -87,39 +103,14 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Definition List */
-dl dt {
-    font-weight: bold;
-    margin-top: 1rem;
-    color: #333;
-}
-
-dl dd {
-    margin-left: 1.5rem;
-    color: #555;
-}
-
-/* Blockquote */
-blockquote {
-    font-style: italic;
-    color: #555;
-    border-left: 4px solid #4CAF50;
-    padding-left: 1rem;
-    margin-top: 2rem;
-}
-
-/* Responsive Design */
+/* Responsive design */
 @media (max-width: 600px) {
     header h1 {
-        font-size: 2rem;
-    }
-
-    header p {
-        font-size: 0.9rem;
+        font-size: 1.8rem;
     }
 
     section h2 {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
     }
 
     ul li {
