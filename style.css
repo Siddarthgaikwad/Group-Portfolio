@@ -1,15 +1,15 @@
-/* Reset margin and padding for all elements */
+/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Apply global styles */
+/* Global styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f5;
-    color: #333;
+    background-color: #f8f9fa; /* Light background color */
+    color: #333; /* Text color */
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -19,28 +19,31 @@ body {
 
 /* Header styles */
 header {
-    background-color: #4CAF50;
+    background-color: #4CAF50; /* Green theme for the header */
     color: white;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
 header p {
-    font-size: 1rem;
-    line-height: 1.5;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /* Section container */
 section {
     background-color: white;
-    padding: 20px;
+    padding: 20px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -49,37 +52,45 @@ section {
 
 /* Section headings */
 section h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #4CAF50;
     margin-bottom: 10px;
-    border-bottom: 2px solid #e7f7e7;
+    border-bottom: 2px solid #e0f3e0; /* Subtle green border */
     padding-bottom: 5px;
 }
 
-/* Lists */
+/* List styles */
 ul {
     list-style: none;
-    margin: 10px 0;
+    margin: 15px 0;
     padding: 0;
 }
 
 ul li {
-    background-color: #e7f7e7;
-    padding: 10px;
-    margin-bottom: 5px;
+    background-color: #f0f8f0; /* Light green background for list items */
+    padding: 10px 15px;
+    margin-bottom: 10px;
     border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
 }
 
-/* Definition list */
+ul li strong {
+    font-weight: 600;
+    color: #555;
+}
+
+/* Definition list styles */
 dl dt {
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 15px;
     color: #333;
 }
 
 dl dd {
-    margin-left: 15px;
+    margin-left: 20px;
     color: #555;
+    line-height: 1.5;
 }
 
 /* Blockquote */
@@ -90,27 +101,36 @@ blockquote {
     padding-left: 15px;
     margin-top: 20px;
     line-height: 1.5;
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 /* Links */
 a {
     color: #4CAF50;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    transition: color 0.3s ease;
 }
 
 a:hover {
+    color: #2e7d32; /* Darker green for hover effect */
     text-decoration: underline;
 }
 
 /* Responsive design */
 @media (max-width: 600px) {
     header h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
     }
 
     section h2 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     ul li {
