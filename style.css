@@ -1,47 +1,138 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI-Powered Wastewater Treatment System</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>AI-Powered Wastewater Treatment System</h1>
-            <p>This project leverages artificial intelligence (AI) to optimize wastewater treatment processes, improving efficiency and reducing environmental impact.</p>
-        </div>
-    </header>
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    <section class="container">
-        <div class="card">
-            <h2>Project Overview</h2>
-            <p>By using machine learning algorithms, we can predict the quality of wastewater and automate the necessary treatment processes to achieve the best water quality in the shortest time.</p>
-        </div>
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e0f7fa; /* Light blue background for a soft look */
+    color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
 
-        <div class="card">
-            <h2>Key Features</h2>
-            <ul>
-                <li>AI-based wastewater quality prediction</li>
-                <li>Automated chemical dosing systems</li>
-                <li>Real-time monitoring and reporting</li>
-                <li>Predictive maintenance using AI algorithms</li>
-            </ul>
-        </div>
+/* Container to center content */
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin-top: 40px;
+}
 
-        <div class="card">
-            <h2>Technologies Used</h2>
-            <ul>
-                <li>Python (TensorFlow, Keras, Scikit-learn)</li>
-                <li>IoT sensors for data collection</li>
-                <li>AI and machine learning algorithms for prediction and automation</li>
-                <li>SQL for database management</li>
-                <li>Cloud computing for real-time data processing</li>
-            </ul>
-        </div>
+/* Header Styling */
+header {
+    background-color: #0277bd; /* Aesthetic blue */
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
 
-        <div class="card">
-            <h2>Impact</h2>
-            <p>This system significantly reduces water pollution, increases energy 
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+/* Card Styles */
+.card {
+    background-color: #ffffff; /* Clean white card background */
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+}
+
+h2 {
+    font-size: 2rem;
+    color: #0277bd; /* Aesthetic blue color */
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    background-color: #b3e5fc; /* Soft light blue for list items */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+ul li strong {
+    color: #0277bd; /* Blue color for important items */
+}
+
+blockquote {
+    background-color: #b3e5fc; /* Soft light blue for quote background */
+    border-left: 5px solid #0277bd; /* Blue border for the blockquote */
+    font-style: italic;
+    padding: 15px 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+/* Links Styling */
+a {
+    color: #0277bd; /* Aesthetic blue */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #01579b; /* Darker blue when hovered */
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
