@@ -212,6 +212,15 @@ body {
     font-size: 0.9rem;
     color: var(--primary-color);
 }
+.project-member {
+    background: var(--card-background);
+    border-radius: 15px;
+    padding: var(--spacing-md);
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s ease;
+}
 
 /* Team Section */
 .team-grid {
